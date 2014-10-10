@@ -16,4 +16,4 @@ var myApp = angular.module("myApp", ["cbSwitch"]);
 3. Apply the directive to your checkboxes:
 
 ```
-<input type="checkbox" cb-switch/>
+<input type="checkbox" cb-switch ng-model="myvalue" />
